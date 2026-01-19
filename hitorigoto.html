@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>独り言…？</title>
+<link rel="stylesheet" href="c.css">
+</head>
+<script>
+  setTimeout(function () {
+    const r = Math.random();
+
+    if (r < 0.005) {
+      location.href = "page1.html";
+    } else if (r < 0.05) {
+      location.href = "page2.html";
+    } else {
+      location.href = "page3.html";
+    }
+    }, 2000);
+</script>
+</head>
+<body>
+<p>もしもここで何か変なものを見ても、あまり気にせずにね？</p>
+</body>
+</html>
